@@ -17,7 +17,7 @@ public class UserData {
         this.userService = userService;
     }
     @PostConstruct
-    public void userInit() {
+    public void userData() {
        User user1 = new User();
        user1.setName("Name1");
         user1.setLastName("LastName1");
